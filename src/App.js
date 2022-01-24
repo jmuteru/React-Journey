@@ -1,12 +1,11 @@
 import './App.css';
-
-import ConditionalRender from './components/ConditionalRender';
+import RenderingLists from './components/RenderingLists'
 
 
 function App() {
   return (
     <div className="App">
-     
+      <RenderingLists/>     
    <ConditionalRender/>
     </div>
   );
