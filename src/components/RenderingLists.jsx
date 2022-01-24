@@ -233,6 +233,7 @@ function RenderingLists() {
       },
     },
   ];
+  
   const mapPersons = persons.map((person) => {
    return <Person person ={person} />;
   });

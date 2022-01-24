@@ -4,7 +4,9 @@ import RenderingLists from './components/RenderingLists'
 function App() {
   return (
     <div className="App">
-      <RenderingLists/>
+      {/* Render list items */}
+      <RenderingLists/> 
+      
     </div>
   );
 }
