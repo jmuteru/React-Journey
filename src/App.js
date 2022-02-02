@@ -1,16 +1,11 @@
 import './App.css';
-import RenderingLists from './components/RenderingLists'
-
+import HandlingForms from './components/HandlingForms';
 
 function App() {
   return (
     <div className="App">
-
-      {/* Render list items */}
-      <RenderingLists/> 
-
-      <RenderingLists/>     
-   <ConditionalRender/>
+      <HandlingForms/>
+     
     </div>
   );
 }
