@@ -4,7 +4,7 @@ import HandlingForms from './components/HandlingForms';
 function App() {
   return (
     <div className="App">
-
+      <HandlingForms/>
      
     </div>
   );
